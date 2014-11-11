@@ -1,0 +1,21 @@
+{
+  "name": "Fast Harvester",
+  "description": "A chrome extension to speed up time entry in the Harvest time tracker",
+  "manifest_version": 2,
+  "version": "0.1",
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon_19.png"
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "background",
+    "tabs",
+    "https://*.harvestapp.com/"
+  ]
+}
